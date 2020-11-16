@@ -11,7 +11,7 @@ extension TestSimplest {
     func describe() {
         print("value: \(value) type: \(type(of: value))")
         print("_value: \(_value) type: \(type(of: _value))")
-        print("_value.wrappedValue: \(value) type: \(type(of: _value.wrappedValue))")
+        print("_value.wrappedValue: \(_value.wrappedValue) type: \(type(of: _value.wrappedValue))")
     }
 }
 
